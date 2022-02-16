@@ -1,0 +1,139 @@
+.img-round{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 15px;
+	}
+.shadowed{
+	box-shadow: 0px 10px 30px; 
+	color: rgba(0, 0, 0, 0.1);
+	}
+
+
+
+
+
+body{
+	color:  rgb(35 , 35, 35);
+	font-size: 16px;
+	background: rgb(240, 240, 240);
+	font-family: 'Lora', serif;
+	}
+
+h1{
+	font-size: 25px;
+	font-weight: 400;
+	color: #95ce9d;
+	}
+h2,h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	}
+h2{
+	font-size: 20px;
+	font-weight: 600;
+	color: #ce95c6;
+	}
+h3{
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: 400;
+	font-weight: bolder;
+	}
+
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+p{
+	text-align: center;
+	}
+
+
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+	}
+
+
+
+
+.box-white{
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 30px 0px;
+	text-align: center;
+	}
+
+
+
+
+.fa-brands {
+	background-color: white;
+    content: "\f09a";
+    color: #eed3ea;
+	}
+.fa-brands:hover {
+	color:#ce95c6 ;
+}
+
+
+
+.btn-pink{
+	background-color: #ce95c6;
+	border-radius: 4px;
+	padding: 6PX 7px;
+	}
+
+.btn-pink:hover {
+	background-color: #a0749a;
+	color: white;
+	}
+
+
+
+
+.list-inline{
+	font-size: 30px;
+	list-style:  none;
+	padding: 0px;
+	}
+.list-inline li {
+	display: inline;
+	padding: 30px;
+	}
+
+
+#introduction p {
+	margin-bottom: 40px;
+	}
+
+
+
+@media(max-width: 750px){
+	.container{
+		width: 600px;
+		}
+	}
+
+@media(max-width: 600px){
+	.container{
+		width: 501px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 350px;
+		}
+	}
